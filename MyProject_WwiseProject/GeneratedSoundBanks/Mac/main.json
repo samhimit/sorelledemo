@@ -1,0 +1,79 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "145",
+  "SoundBanks": [
+   {
+    "Id": "3161908922",
+    "Type": "User",
+    "GUID": "{0AFAD942-E724-4AD6-8AE5-92C728C7F899}",
+    "Language": "SFX",
+    "Hash": "{CFA1A207-E0C3-C72E-56C9-CA50CF418A82}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\main",
+    "ShortName": "main",
+    "Path": "main.bnk",
+    "Media": [
+     {
+      "Id": "633253459",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "bb_deepParticle_cMajBend_01.wav",
+      "CachePath": "SFX/bb_deepParticle_cMajBend_01_9E98A9C2.wem"
+     },
+     {
+      "Id": "1031448616",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "FootstepsCement2_1.wav",
+      "CachePath": "SFX/FootstepsCement2_1_10C4C929.wem"
+     },
+     {
+      "Id": "1068537224",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "FootstepsCement1_1.wav",
+      "CachePath": "SFX/FootstepsCement1_1_10C4C929.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3898223931",
+      "Name": "Play_position",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_position",
+      "GUID": "{A92C8B7B-A236-434D-80D2-B503A2B18794}",
+      "MaxAttenuation": "6000",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "633253459"
+       }
+      ]
+     },
+     {
+      "Id": "3467589017",
+      "Name": "Play_source",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_source",
+      "GUID": "{F03734E4-09CB-4169-90EF-5F2727794E7E}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.68266666",
+      "DurationMax": "0.68266666",
+      "MediaRefs": [
+       {
+        "Id": "1031448616"
+       },
+       {
+        "Id": "1068537224"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{71822166-CE0B-2926-BB20-83A66FE24913}"
+ }
+}

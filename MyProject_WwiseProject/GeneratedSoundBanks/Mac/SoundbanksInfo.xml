@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="145">
+	<RootPaths>
+		<ProjectRoot>../../</ProjectRoot>
+		<SourceFilesRoot>../../.cache/Mac/</SourceFilesRoot>
+		<SoundBanksRoot>.</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>.</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{F56A610C-C7C4-F874-B68B-7ADDF94EBB7A}">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<Plugins>
+				<AudioDevices>
+					<Plugin Id="2317455096" Name="No_Output" ObjectPath="\Audio Devices\Default Work Unit\No_Output" GUID="{77F1C8CA-64C1-4D9D-981C-AA5C1B0CA174}" LibName="No Output" LibId="11862023"/>
+					<Plugin Id="3859886410" Name="System" ObjectPath="\Audio Devices\Default Work Unit\System" GUID="{7AEF5687-E797-4E6E-8465-C6C0E3D8DE9B}" LibName="System" LibId="11403271"/>
+				</AudioDevices>
+			</Plugins>
+			<Busses>
+				<Bus Id="3803692087" Name="Master Audio Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus" GUID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
+			</Busses>
+		</SoundBank>
+		<SoundBank Id="3161908922" Type="User" GUID="{0AFAD942-E724-4AD6-8AE5-92C728C7F899}" Language="SFX" Hash="{CFA1A207-E0C3-C72E-56C9-CA50CF418A82}">
+			<ObjectPath>\SoundBanks\Default Work Unit\main</ObjectPath>
+			<ShortName>main</ShortName>
+			<Path>main.bnk</Path>
+			<Media>
+				<File Id="633253459" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>bb_deepParticle_cMajBend_01.wav</ShortName>
+					<CachePath>SFX/bb_deepParticle_cMajBend_01_9E98A9C2.wem</CachePath>
+				</File>
+				<File Id="1031448616" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FootstepsCement2_1.wav</ShortName>
+					<CachePath>SFX/FootstepsCement2_1_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1068537224" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FootstepsCement1_1.wav</ShortName>
+					<CachePath>SFX/FootstepsCement1_1_10C4C929.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3898223931" Name="Play_position" ObjectPath="\Events\Default Work Unit\Play_position" GUID="{A92C8B7B-A236-434D-80D2-B503A2B18794}" MaxAttenuation="6000" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="633253459"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3467589017" Name="Play_source" ObjectPath="\Events\Default Work Unit\Play_source" GUID="{F03734E4-09CB-4169-90EF-5F2727794E7E}" DurationType="OneShot" DurationMin="0.68266666" DurationMax="0.68266666">
+					<MediaRefs>
+						<MediaRef Id="1031448616"/>
+						<MediaRef Id="1068537224"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{821051D1-318E-86B2-26AB-1DB7F5748EA2}</FileHash>
+</SoundBanksInfo>

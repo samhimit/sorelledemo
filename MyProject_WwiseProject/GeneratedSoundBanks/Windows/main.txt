@@ -1,0 +1,7 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3467589017	Play_source			\Default Work Unit\Play_source	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	1031448616	FootstepsCement2_1	Y:\Documents\Unreal Projects\MyProject\MyProject_WwiseProject\.cache\Windows\SFX\FootstepsCement2_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\source\FootstepsCement2_1		131232
+	1068537224	FootstepsCement1_1	Y:\Documents\Unreal Projects\MyProject\MyProject_WwiseProject\.cache\Windows\SFX\FootstepsCement1_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\source\FootstepsCement1_1		131232
+

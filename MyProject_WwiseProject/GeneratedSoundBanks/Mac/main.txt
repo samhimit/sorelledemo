@@ -1,0 +1,9 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3467589017	Play_source			\Default Work Unit\Play_source	
+	3898223931	Play_position			\Default Work Unit\Play_position	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	633253459	bb_deepParticle_cMajBend_01	Y:\Documents\Unreal Projects\MyProject\MyProject_WwiseProject\.cache\Mac\SFX\bb_deepParticle_cMajBend_01_9E98A9C2.wem		\Actor-Mixer Hierarchy\Default Work Unit\position\bb_deepParticle_cMajBend_01		1530648
+	1031448616	FootstepsCement2_1	Y:\Documents\Unreal Projects\MyProject\MyProject_WwiseProject\.cache\Mac\SFX\FootstepsCement2_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\source\FootstepsCement2_1		131232
+	1068537224	FootstepsCement1_1	Y:\Documents\Unreal Projects\MyProject\MyProject_WwiseProject\.cache\Mac\SFX\FootstepsCement1_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\source\FootstepsCement1_1		131232
+

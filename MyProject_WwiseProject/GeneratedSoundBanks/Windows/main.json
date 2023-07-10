@@ -1,0 +1,59 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "145",
+  "SoundBanks": [
+   {
+    "Id": "3161908922",
+    "Type": "User",
+    "GUID": "{0AFAD942-E724-4AD6-8AE5-92C728C7F899}",
+    "Language": "SFX",
+    "Hash": "{3CFE9505-9F43-F726-F06A-DF0C27C22B89}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\main",
+    "ShortName": "main",
+    "Path": "main.bnk",
+    "Media": [
+     {
+      "Id": "1031448616",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "FootstepsCement2_1.wav",
+      "CachePath": "SFX/FootstepsCement2_1_10C4C929.wem"
+     },
+     {
+      "Id": "1068537224",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "FootstepsCement1_1.wav",
+      "CachePath": "SFX/FootstepsCement1_1_10C4C929.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3467589017",
+      "Name": "Play_source",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_source",
+      "GUID": "{F03734E4-09CB-4169-90EF-5F2727794E7E}",
+      "MaxAttenuation": "5000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.68266666",
+      "DurationMax": "0.68266666",
+      "MediaRefs": [
+       {
+        "Id": "1031448616"
+       },
+       {
+        "Id": "1068537224"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{6369A729-AF16-4B40-8196-46DF67F96FB0}"
+ }
+}
